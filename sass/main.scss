@@ -1,0 +1,14 @@
+@import './abstracts/variables';
+
+@import './base/reset';
+@import './base/typography';
+
+body {
+    font-family: $regular-font-family;
+    color: $regular-font-color;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: $brand-color;
+}
